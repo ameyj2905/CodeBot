@@ -1,2 +1,2 @@
 # CodeBot
-This application replicates ChatGPT chatbot by using the API provided by OpenAI.
+This application uses the OpenAI API to create a chatbot with a simplified user interface.
