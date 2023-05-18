@@ -32,7 +32,7 @@ app.post('/', async (req, res) => {
       max_tokens: 2048, // max_token number of 2048 to avoid error code 429(handle rate limits).
       top_p: 1, // Determines how much pool is availble for the next token being considered.
       frequency_penalty: 0.5, // Reduce the number of repetitions of lines.
-      presence_penalty: 0, // Increase the chances to make new predictions.
+      presence_penalty: 0, // Increase the chances to make new predictions
     });
 
     res.status(200).send({
